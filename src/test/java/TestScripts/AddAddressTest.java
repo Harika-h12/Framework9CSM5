@@ -10,6 +10,7 @@ package TestScripts;
 	import genericLibraries.BaseClass;
 
 	public class AddAddressTest extends BaseClass {
+	
 
 		@Test
 		public void addAddressTest() throws InterruptedException {
@@ -20,6 +21,7 @@ package TestScripts;
 			home.clickProfileButton();
 			Thread.sleep(2000);
 			home.selectMyProfile();
+			//home page
 			Thread.sleep(2000);
 			myProfile.clickMyAddresses();
 			myAddress.clickAddAddress();
